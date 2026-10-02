@@ -1,0 +1,87 @@
+# .gitignore for Jarvis Project
+
+# Logs
+*.log
+jarvis.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Browser User Data (Selenium/Spotify sessions)
+selenium_user_data/
+spotify_user_data/
+
+# Local configuration and device state
+config.json
+tv_devices.json
+discovered_devices.json
+
+# Locally generated TV pairing material
+*.pem
+*.key
+jarvis_tv_cert.pem
+jarvis_tv_key.pem
+modules/jarvis_tv_cert.pem
+modules/jarvis_tv_key.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test outputs
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+*.tmp
+temp/
+tmp/

@@ -1,0 +1,4 @@
+{
+    "profile_dir": "",
+    "instructions": "Leave profile_dir empty to use the safe per-user default. Log in manually in the Spotify browser window; never place passwords or cookies in this file."
+}

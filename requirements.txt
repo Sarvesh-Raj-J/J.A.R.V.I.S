@@ -1,0 +1,40 @@
+# Core voice and speech dependencies
+SpeechRecognition==3.10.0
+pyttsx3==2.90
+pyaudio==0.2.13
+
+# Web and API interactions
+requests==2.31.0
+wikipedia==1.4.0
+
+# AI Integration (Optional - requires Ollama installation)
+# Install Ollama from: https://ollama.ai
+
+# Email functionality
+secure-smtplib==0.1.1
+
+# Automation and system control
+pyautogui==0.9.54
+psutil==5.9.6
+keyboard==0.13.5
+screen-brightness-control==0.21.0
+
+# UI and visualization
+numpy>=1.21.0
+Pillow>=9.0.0
+opencv-python>=4.8.0
+
+# Spotify integration
+spotipy>=2.23.0
+
+# Browser automation
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+
+# Testing
+unittest-xml-reporting==3.2.0
+
+# Note: For Ollama AI features, install Ollama separately:
+# Windows: Download from https://ollama.ai
+# Linux/Mac: curl https://ollama.ai/install.sh | sh
+# Then run: ollama pull llama2
